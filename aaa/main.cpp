@@ -13,5 +13,7 @@ int main(int argc, const char * argv[]) {
     std::cout << "Hello, World!\n";
     int a;
     std::cin >> a;
-    return a;
+    int b = 2;
+    int c = a + b;
+    return c;
 }
