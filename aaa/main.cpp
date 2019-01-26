@@ -13,5 +13,5 @@ int main(int argc, const char * argv[]) {
     std::cout << "Hello, World!\n";
     int a;
     std::cin >> a;
-    return 0;
+    return a;
 }
